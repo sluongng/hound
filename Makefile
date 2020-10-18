@@ -15,10 +15,10 @@ node_modules:
 	npm install
 
 $(GOPATH)/bin/houndd: ui/bindata.go $(SRCS)
-	go install github.com/itpp-labs/hound/cmds/houndd
+	go install github.com/sluongng/hound/cmds/houndd
 
 $(GOPATH)/bin/hound: ui/bindata.go $(SRCS)
-	go install github.com/itpp-labs/hound/cmds/hound
+	go install github.com/sluongng/hound/cmds/hound
 
 .build/bin/go-bindata:
 	GOPATH=`pwd`/.build go get github.com/go-bindata/go-bindata/...
@@ -32,7 +32,7 @@ dev: ALL
 	npm install
 
 test:
-	go test github.com/itpp-labs/hound/...
+	go test github.com/sluongng/hound/...
 	npm test
 
 clean:

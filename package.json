@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itpp-labs/hound.git"
+    "url": "git+https://github.com/sluongng/hound.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/itpp-labs/hound/issues"
+    "url": "https://github.com/sluongng/hound/issues"
   },
-  "homepage": "https://github.com/itpp-labs/hound#readme",
+  "homepage": "https://github.com/sluongng/hound#readme",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",

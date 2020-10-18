@@ -13,7 +13,7 @@ import (
 	"strings"
 	text_template "text/template"
 
-	"github.com/itpp-labs/hound/config"
+	"github.com/sluongng/hound/config"
 )
 
 // An http.Handler for the dev-mode case.

@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/itpp-labs/hound/codesearch/regexp"
-	"github.com/itpp-labs/hound/config"
-	"github.com/itpp-labs/hound/index"
-	"github.com/itpp-labs/hound/searcher"
+	"github.com/sluongng/hound/codesearch/regexp"
+	"github.com/sluongng/hound/config"
+	"github.com/sluongng/hound/index"
+	"github.com/sluongng/hound/searcher"
 )
 
 const (

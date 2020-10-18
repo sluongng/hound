@@ -6,7 +6,7 @@
   "repos" : [
       {
           "name" : "Hound",
-          "url" : "https://github.com/itpp-labs/hound.git"
+          "url" : "https://github.com/sluongng/hound.git"
       }
   ]
 }

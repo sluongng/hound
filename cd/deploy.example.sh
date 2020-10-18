@@ -2,7 +2,7 @@
 # don't do anything on a wrong request
 test "$1" = "/your-secret" || exit 1
 
-DOCKER=docker.pkg.github.com/itpp-labs/hound/production
+DOCKER=docker.pkg.github.com/sluongng/hound/production
 NAME=hound
 DATA=$(pwd)
 docker pull $DOCKER

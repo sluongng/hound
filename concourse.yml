@@ -17,7 +17,7 @@ resources:
 - name: docker-registry
   type: docker-image
   source:
-    repository: docker.pkg.github.com/itpp-labs/hound/pr
+    repository: docker.pkg.github.com/sluongng/hound/pr
     username: ((github-username))
     password: ((github-token))
 
@@ -56,9 +56,9 @@ jobs:
             echo "To test updates run:
 
                 # normal
-                docker run -p 6080:6080 --rm docker.pkg.github.com/itpp-labs/hound/pr:$TAG
+                docker run -p 6080:6080 --rm docker.pkg.github.com/sluongng/hound/pr:$TAG
                 # dev
-                docker run -p 6080:6080 -p 9000:9000 --rm docker.pkg.github.com/itpp-labs/hound/pr:$TAG --dev
+                docker run -p 6080:6080 -p 9000:9000 --rm docker.pkg.github.com/sluongng/hound/pr:$TAG --dev
 
             You may need be [authenticated](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line):
             
